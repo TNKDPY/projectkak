@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Form</title>
+  <style>
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    form {
+      text-align: center;
+      font-size: 30px; /* Adjust the font size as needed */
+      padding: 20px; /* Add padding for a framed look */
+      border: 2px solid #333; /* Add a border for a framed look */
+      border-radius: 10px; /* Add border-radius for rounded corners */
+    }
+
+    h2 {
+      font-size: 24px; /* Adjust the font size of the heading */
+    }
+
+    input {
+      font-size: 25px; /* Adjust the font size of the input fields */
+      margin-bottom: 10px; /* Add some space between input fields */
+    }
+
+    input[type="submit"] {
+      font-size: 18px; /* Adjust the font size of the submit button */
+    }
+  </style>
+</head>
+<body>
+
+  <form action="/form_login" method="post">
+    <h2>Login</h2>
+    Username:<br>
+    <input type="text" name='username'><br>
+    Password:<br>
+    <input type="password" name='password'><br><br>
+    <input type="submit" value="Login">
+  </form>
+
+</body>
+</html>
